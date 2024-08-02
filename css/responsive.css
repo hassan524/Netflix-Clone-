@@ -1,0 +1,124 @@
+
+
+/* ================ > > Nav  */
+
+
+     @media only screen and (max-width: 750px){
+
+
+
+        .for-image{
+            height: 70vh;
+        }
+        .main-form{
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .navbar{
+            padding: 3rem 2rem;
+            flex-wrap: wrap;
+        }
+        .for-main-section{
+            line-height: 1.5;
+        }
+        .navbar img{
+            width: 120px;
+        }
+        .for-main-section .main-h{
+            font-size: 29px;
+        }
+        .for-main-section .main-para{
+             font-size: 15px;
+        }
+        .for-main-section input{
+            width: 320px;
+            height: 6vh;
+            font-size: 18px;
+        }
+        .for-main-section button{
+            height: 6vh;
+            width: 180px;
+            padding: 0 1rem;
+        }
+        #bottom-form {
+            flex-direction: column;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        #bottom-form input {
+            width: 320px;
+            height: 6vh;
+            font-size: 18px;
+        }
+
+        #bottom-form button{
+            height: 6vh;
+            width: 180px;
+            padding: 0 1rem;
+        }
+
+     }
+
+     /* ============== > > Section & Rows   */
+
+          @media only screen and (max-width: 1095px){
+            .row{
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 5rem 2rem;
+                height: 58vh;
+                gap: 2rem;
+
+            }
+            .row2{
+                
+            }
+            .row img {
+                width: 290px;
+            } 
+            .row video{
+                width: 240px;
+            }
+            .row-contain h1 {
+                font-size: 2.5rem;
+                text-align: center;
+            }
+            .row-contain p{
+                text-align: center;
+                font-size: 1rem;
+            }
+            .row-contain {
+                line-height: 2;
+            }
+            .faqbox{
+                font-size: 20px;
+            }
+          }
+
+          @media only screen and (max-width: 520px){
+            .row{
+                height: 100vh;
+            }
+          }
+
+          
+/* ================== > > footer  */
+
+             @media only screen and (max-width: 1060px){
+                footer{
+                    flex-wrap: wrap;
+                    padding: 5rem 5rem;
+                }
+                .f-col ul li{
+                    text-align: center;
+                    font-size: 23px;
+                    text-decoration: none;
+                    opacity: 0.8;
+                    font-weight: 600;
+                }
+                .f-col p{
+                    text-align: center;
+                }
+             }
